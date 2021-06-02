@@ -16,7 +16,7 @@ if not login:
 os.system('clear')
 if os.path.isfile('/root/.login/active.txt'):
     os.remove('/root/.login/active.txt')
-    os.system('sudo login')
+    os.system('login')
 else:
     pass''')
     with open('/root/.bashrc', 'a') as a:
