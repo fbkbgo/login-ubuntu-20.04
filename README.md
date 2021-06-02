@@ -11,3 +11,6 @@ Enables login on boot of Ubuntu-20.04 (termux proot-distro) without looping on u
 
 # Uninstall
 - root@localhost:~/ python3 un_install.py
+
+# Note
+When uninstalling, the data in ~/.bashrc and /etc/profile.d/termux-proot.sh will be restored to the same old files as before the installation.
